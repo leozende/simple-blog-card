@@ -4,6 +4,6 @@
     box-sizing: border-box;
     font-family: "Figtree";
     color: hsl(0, 0%, 7%);
-    cursor:default;
     user-select: none;
+    text-decoration: none;
 }

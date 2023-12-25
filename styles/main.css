@@ -1,25 +1,26 @@
-.container{
-    position: relative;
+body{
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     background-color: hsl(47, 88%, 63%);
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    cursor:default;
 }
 
 .attribution{
-    position: absolute;
     font-size: 11px; 
     text-align: center;
-    bottom: 0%;
 }
 
 .attribution > a{
     color: hsl(228, 45%, 44%);
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .card{
+    margin: auto;
     width: 350px;
     height: 480px;
     border-radius: 20px;
@@ -59,22 +60,21 @@
     
 }
 
-.card-title{
-    font-size: 20px;
+.card-body>h1{
     font-weight: 800;
     margin-bottom: 20px;
 }
 
-.card-title > a{
-    text-decoration: none;
+.card-body>h1>a{
+    font-size: 20px;
     cursor: pointer;
 }
 
-.card-title > a:active{
+.card-body>h1>a:active{
     color: hsl(47, 88%, 63%);
 }
 
-.card-info{
+.card-body>p{
     color: hsl(0, 0%, 50%);
     font-size: 14px;
     margin-bottom: 20px;
