@@ -81,14 +81,14 @@ body{
     font-weight: 400;
 }
 
-.card-writter{
+.card-writer{
     display: flex;
     flex-direction: row;
     align-items: center;
     font-weight: 800;
     font-size: 14px;
 }
-.card-writter > img{
+.card-writer > img{
     width: 40px;
     margin-right: 10px;
 }
